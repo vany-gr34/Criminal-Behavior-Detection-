@@ -1,0 +1,17 @@
+# Environment used for the reported runs: Python 3.12, PyTorch 2.9.0, torchvision 0.24.0 (Kaggle GPU)
+torch>=2.0
+torchvision>=0.15        # needs mvit_v2_s and swin3d_t
+transformers>=4.30       # TimeSformer (Hugging Face)
+opencv-python
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tqdm
+jupyter
+
+# Optional: only needed to run the official SlowFast-R50 / X3D-M instead of the
+# custom fallbacks (may require installing from source on Python 3.12).
+# fvcore
+# pytorchvideo
